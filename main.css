@@ -1,0 +1,22 @@
+*{
+ margin:0;
+ padding:0;
+ box-sizing: border-box;
+}
+
+#tooltip{
+    position: absolute;
+    color:#fff;
+    border-radius: 5px;
+    pointer-events: none;
+}
+.graph{
+    position: absolute;
+    width:950px;
+    height:600px;
+    background:#fff;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    
+}
